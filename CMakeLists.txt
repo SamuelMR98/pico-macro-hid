@@ -17,15 +17,15 @@ set(PICO_BOARD pico CACHE STRING "Board type")
 cmake_minimum_required(VERSION 3.13)
 include(pico_sdk_import.cmake)
 
-project(macro_hud C CXX ASM)
+project(pico_macro_hud C CXX ASM)
 pico_sdk_init()
 
-add_executable(macro_hud
+add_executable(pico_macro_hud
     src/main.cpp
     src/buttons.cpp
 )
 
-target_include_directories(macro_hud PRIVATE include)
-target_link_libraries(macro_hud pico_stdlib)
+target_include_directories(pico_macro_hud PRIVATE include)
+target_link_libraries(pico_macro_hud pico_stdlib)
 
-pico_add_extra_outputs(macro_hud)
+pico_add_extra_outputs(pico_macro_hud)

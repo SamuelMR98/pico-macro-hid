@@ -1,4 +1,5 @@
 #include "buttons.h"
+#include "config.h"
 #include "pico/stdlib.h"
 
 void init_buttons() {

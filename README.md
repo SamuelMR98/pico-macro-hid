@@ -1,6 +1,6 @@
-# pico-macro-hid
+# pico-macro-hud
 
-Macros and HID keyboard using a Raspberry Pico (RP2040)
+Macros and HUD keyboard using a Raspberry Pico (RP2040)
 
 ## Project Overview
 
@@ -17,7 +17,7 @@ Macros and HID keyboard using a Raspberry Pico (RP2040)
 ## Features
 
 - **Macro Functionality**: Define and execute keyboard macros
-- **HID Keyboard**: Emulate a USB keyboard to send keystrokes to a host computer
+- **HUD Keyboard**: Emulate a USB keyboard to send keystrokes to a host computer
 - **Display Support**: Interface with OLED or TFT displays for visual feedback
 - **Customizable**: Easily modify macros and settings through configuration files
 - **User-Friendly**: Simple interface for defining and executing macros
@@ -34,6 +34,6 @@ Macros and HID keyboard using a Raspberry Pico (RP2040)
 - Pico SDK installed and configured
 - SSD1306 or ILI9341 display (optional, for visual feedback)
 - Optional: Additional libraries for display support (e.g., Adafruit GFX, Adafruit SSD1306, etc.)
-- Optional: Additional libraries for HID keyboard support (e.g., TinyUSB)
+- Optional: Additional libraries for HUD keyboard support (e.g., TinyUSB)
 - Optional: Additional libraries for macro functionality (e.g., Keyboard library)
 - Optional: Additional libraries for configuration file parsing (e.g., JSON library)
