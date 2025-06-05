@@ -21,3 +21,4 @@ bool is_button_pressed(int gpio) {
     // Check if the button is pressed (active low)
     return !gpio_get(gpio);
 }
+
