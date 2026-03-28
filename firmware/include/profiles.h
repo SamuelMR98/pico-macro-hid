@@ -10,6 +10,6 @@ const char *profiles_get_current_page_name(void);
 unsigned int profiles_get_current_page_index(void);
 unsigned int profiles_get_page_count(void);
 void profiles_next_page(void);
-void profiles_previous_page(void);
+void profiles_prev_page(void);
 
 #endif // PROFILES_H

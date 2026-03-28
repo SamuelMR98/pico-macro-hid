@@ -2,7 +2,7 @@
 #include "pins.h"
 #include "pico/stdlib.h"
 
-static const unit button_pins[BUTTON_ID_COUNT] = {
+static const uint button_pins[BUTTON_ID_COUNT] = {
     BUTTON_1_PIN,
     BUTTON_2_PIN,
     BUTTON_3_PIN,
@@ -52,7 +52,7 @@ void buttons_update(void) {
     }
 }
 
-bool buttons_was_pressed(button_id_t button_id) {
+bool button_was_pressed(button_id_t button_id) {
     if (pressed_event[button_id]) {
         pressed_event[button_id] = false; // clear event after reading
         return true;
@@ -60,6 +60,6 @@ bool buttons_was_pressed(button_id_t button_id) {
     return false;
 }
 
-bool buttons_is_pressed(button_id_t button_id) {
+bool button_is_pressed(button_id_t button_id) {
     return stable_state[button_id];
 }

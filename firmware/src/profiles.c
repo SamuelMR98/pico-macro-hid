@@ -14,7 +14,6 @@ static const button_action_t pages[2][BUTTON_COUNT] = {
         {ACTION_MACRO, MACRO_CUT, "Cut"},
         {ACTION_MACRO, MACRO_SAVE, "Save"},
         {ACTION_MACRO, MACRO_REDO, "Redo"},
-        {ACTION_MACRO, MACRO_TERMINAL, "Terminal"},
         {ACTION_PREV_PAGE, MACRO_NONE, "Prev"}
     }
 };
